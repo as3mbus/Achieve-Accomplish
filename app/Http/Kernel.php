@@ -14,6 +14,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
+        'Fideloper\Proxy\TrustProxies',
+        
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \qaddition\Http\Middleware\TrimStrings::class,

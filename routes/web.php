@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home')->with('name', 'Stranger');
+    return view('home');
 });
 
 Route::get('/dev', function () {

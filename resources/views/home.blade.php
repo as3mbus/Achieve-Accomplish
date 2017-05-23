@@ -9,7 +9,6 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    hello {{$name}}
                     You are not logged in!
                 </div>
             </div>
