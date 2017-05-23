@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dev', function () {
-    $quest = DB::table('quest')->get();
+    // $quest = DB::table('quest')->get();
     // return $quest;
     // return view('home2',
     // ['quest'=> $quest,
