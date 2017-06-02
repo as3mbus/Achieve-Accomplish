@@ -9,3 +9,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 .env
+/config/database-local.php
+/config/database-heroku.php
