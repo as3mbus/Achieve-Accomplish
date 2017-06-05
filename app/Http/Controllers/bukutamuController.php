@@ -10,9 +10,8 @@ class bukutamuController extends Controller
 {
   public function index()
   {
-    $bukutamu=bukutamu::all();
-      // load the view and pass the nerds
-      return view('bukutamu.index');
+      $messages=bukutamu::all();
+      return view('bukutamu.index')->with('messages',$messages);
   }
   public function input(){
     return view('bukutamu.tamu');
