@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="relation.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-1127.623"
+     inkscape:cy="1053.6358"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1313"
+     inkscape:window-height="742"
+     inkscape:window-x="53"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       id="rect10"
+       width="96.761909"
+       height="77.863091"
+       x="4.5357141"
+       y="7.4702382"
+       style="stroke-width:0.26458332;fill:none;stroke:#000000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-486.73669"
+       y="-53.748867"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         x="-486.73669"
+         y="-53.748867"
+         style="stroke-width:0.26458332">User</tspan><tspan
+         sodipodi:role="line"
+         x="-486.73669"
+         y="-40.519699"
+         style="stroke-width:0.26458332"
+         id="tspan16">user Id</tspan><tspan
+         sodipodi:role="line"
+         x="-486.73669"
+         y="-27.290535"
+         style="stroke-width:0.26458332"
+         id="tspan4165">email</tspan><tspan
+         sodipodi:role="line"
+         x="-486.73669"
+         y="-14.061368"
+         style="stroke-width:0.26458332"
+         id="tspan20">pass</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-349.58856"
+       y="33.472248"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         x="-349.58856"
+         y="33.472248"
+         style="stroke-width:0.26458332">quest</tspan><tspan
+         sodipodi:role="line"
+         x="-349.58856"
+         y="46.701416"
+         style="stroke-width:0.26458332"
+         id="tspan54">userid</tspan><tspan
+         sodipodi:role="line"
+         x="-349.58856"
+         y="59.93058"
+         style="stroke-width:0.26458332"
+         id="tspan107">questid</tspan><tspan
+         sodipodi:role="line"
+         x="-349.58856"
+         y="73.159744"
+         style="stroke-width:0.26458332"
+         id="tspan28">nama</tspan><tspan
+         sodipodi:role="line"
+         x="-349.58856"
+         y="86.388916"
+         style="stroke-width:0.26458332"
+         id="tspan30">deskripsi</tspan><tspan
+         sodipodi:role="line"
+         x="-349.58856"
+         y="99.61808"
+         style="stroke-width:0.26458332"
+         id="tspan101">deadline</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-217.02286"
+       y="-58.468472"
+       id="text36"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         x="-217.02286"
+         y="-58.468472"
+         style="stroke-width:0.26458332">task</tspan><tspan
+         sodipodi:role="line"
+         x="-217.02286"
+         y="-45.239304"
+         style="stroke-width:0.26458332"
+         id="tspan46">id</tspan><tspan
+         sodipodi:role="line"
+         x="-217.02286"
+         y="-32.010139"
+         style="stroke-width:0.26458332"
+         id="tspan56">nama</tspan><tspan
+         sodipodi:role="line"
+         x="-217.02286"
+         y="-18.780973"
+         style="stroke-width:0.26458332"
+         id="tspan50">deskripsi</tspan><tspan
+         sodipodi:role="line"
+         x="-217.02286"
+         y="-5.5518064"
+         style="stroke-width:0.26458332"
+         id="tspan52">nilai maks</tspan><tspan
+         sodipodi:role="line"
+         x="-217.02286"
+         y="7.6773596"
+         style="stroke-width:0.26458332"
+         id="tspan4167">deadline</tspan><tspan
+         sodipodi:role="line"
+         x="-217.02286"
+         y="20.906527"
+         style="stroke-width:0.26458332"
+         id="tspan38">quest id</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-14.432554"
+       y="-19.981659"
+       id="text44"><tspan
+         sodipodi:role="line"
+         id="tspan42"
+         x="-14.432554"
+         y="-10.617889"
+         style="stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-405.18063"
+       y="-101.2316"
+       id="text60"><tspan
+         sodipodi:role="line"
+         id="tspan58"
+         x="-405.18063"
+         y="-101.2316"
+         style="stroke-width:0.26458332">userquest</tspan><tspan
+         sodipodi:role="line"
+         x="-405.18063"
+         y="-88.002434"
+         style="stroke-width:0.26458332"
+         id="tspan62">user id</tspan><tspan
+         sodipodi:role="line"
+         x="-405.18063"
+         y="-74.773262"
+         style="stroke-width:0.26458332"
+         id="tspan85">task id</tspan><tspan
+         sodipodi:role="line"
+         x="-405.18063"
+         y="-61.544098"
+         style="stroke-width:0.26458332"
+         id="tspan89">nilai</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -447.40919,-54.726696 41.1595,-42.228587"
+       id="path93"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -356.00302,-79.850033 127.22031,36.883195"
+       id="path95"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -224.5064,4.0725978 -314.84351,57.775955"
+       id="path97"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-365.62469"
+       y="48.439339"
+       id="text111"><tspan
+         sodipodi:role="line"
+         id="tspan109"
+         x="-365.62469"
+         y="57.803108"
+         style="stroke-width:0.26458332" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -458.09997,-10.359957 91.94072,55.057522"
+       id="path113"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

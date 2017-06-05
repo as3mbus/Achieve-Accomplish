@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateQuestTable extends Migration
+class CreateTasksTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,13 @@ class CreateQuestTable extends Migration
      */
     public function up()
     {
-        Schema::create('quest', function (Blueprint $table) {
+        Schema::create('tasks', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('body');
+            $table->integer('quest_id');
+            $table->string('name',50);
+            $table->string('description',255);
+            $table->dateTime('duedate');
+            $table->integer('maxscore');
             $table->timestamps();
         });
     }
@@ -27,6 +31,6 @@ class CreateQuestTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('quest');
+        Schema::dropIfExists('tasks');
     }
 }

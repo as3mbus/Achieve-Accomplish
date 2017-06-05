@@ -26,4 +26,13 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    public function createdQuest()
+   {
+       return $this->hasMany('qaddition\quest');
+   }
+    public function takenQuest()
+   {
+       return $this->belongsToMany('qaddition\task');
+   }
+
 }

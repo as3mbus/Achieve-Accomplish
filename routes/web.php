@@ -57,3 +57,4 @@ Route::resource('bukutamu', 'bukutamuController');
 
 Route::get('tamu', 'bukutamuController@input');
 Route::post('tamu', 'bukutamuController@save');
+Route::resource('q', 'QuestsController');
