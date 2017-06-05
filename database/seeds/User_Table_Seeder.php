@@ -17,6 +17,13 @@ class User_Table_Seeder extends Seeder
           'name'     => 'Chris Sevilleja',
           'email'    => 'chris@scotch.io',
           'password' => Hash::make('awesome'),
+          'role'     => 'user',
+      ));
+      User::create(array(
+          'name'     => 'asembus',
+          'email'    => 'asembus@gmail.com',
+          'password' => Hash::make('doscom'),
+          'role'     => 'admin',
       ));
     }
 }

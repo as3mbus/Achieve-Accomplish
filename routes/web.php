@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home2');
 });
 
 Route::get('/dev', function () {
@@ -22,6 +22,14 @@ Route::get('/dev', function () {
     // ['quest'=> $quest,
     //  'name'=> 'stranger']);
     return view('home2');
+});
+Route::get('/announcement', function () {
+    // $quest = DB::table('quest')->get();
+    // return $quest;
+    // return view('home2',
+    // ['quest'=> $quest,
+    //  'name'=> 'stranger']);
+    return view('announcement');
 });
 
 Route::get('/quest', function () {
@@ -41,5 +49,11 @@ Route::get('/quest/{id}', function ($id) {
 });
 
 Auth::routes();
+Route::get('bukutamu','bukutamuController@index');
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('bukutamu', 'bukutamuController');
+
+Route::get('tamu', 'bukutamuController@input');
+Route::post('tamu', 'bukutamuController@save');
