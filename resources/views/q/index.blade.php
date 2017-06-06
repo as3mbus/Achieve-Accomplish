@@ -23,7 +23,7 @@
 	<tbody>
 		<?php $no = 1; ?>
 		@foreach($quests as $quest)
-		@foreach($tasks as $task)
+		@foreach($quest->tasks as $task)
 
 		<tr>
 			<td>{{$no}}</td>

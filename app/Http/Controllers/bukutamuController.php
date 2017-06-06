@@ -13,7 +13,8 @@ class bukutamuController extends Controller
       $messages=bukutamu::all();
       return view('bukutamu.index')->with('messages',$messages);
   }
-  public function input(){
+  public function input()
+  {
     return view('bukutamu.tamu');
   }
   public function save(Request $request){

@@ -12,10 +12,37 @@ class QuestsController extends Controller
   public function index()
   {
       $quests=quest::all();
-      $tasks = quest::find(1)->tasks;
+      $tasks =task::all();
 
       return view('q.index')->with('quests',$quests)
                             ->with('tasks',$tasks);
+  }
+  public function input()
+  {
+    return view('q.input');
+  }
+  public function save(Request $request){
+      $quest = new quest();
+      $quest->user_id=1;
+      $quest->name = $request->get('quest');
+      $quest->description = $request->get('description');
+      $quest->save();
+      $task = new task;
+      $task->quest_id=$quest->id;
+      $task->name = $request->get('task');
+      $task->maxscore = $request->get('maxscore');
+      $task->description = $request->get('taskdescription');
+      $task->duedate = 'now()';
+      $task->save();
+
+      return redirect('q');
+  }
+  public function edit($id)
+  {
+      $quest = Pesertas::find($id);
+      $tasks = Kelas::lists('nama_kelas', 'id');
+      return view('q.edit')->withPeserta($peserta)
+                                    ->withKelas($kelas);
   }
 
     //

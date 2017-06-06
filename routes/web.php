@@ -49,12 +49,20 @@ Route::get('/quest/{id}', function ($id) {
 });
 
 Auth::routes();
-Route::get('bukutamu','bukutamuController@index');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('bukutamu', 'bukutamuController');
+
+
+// Route::resource('bukutamu', 'bukutamuController');
+Route::get('bukutamu','bukutamuController@index');
 
 Route::get('tamu', 'bukutamuController@input');
 Route::post('tamu', 'bukutamuController@save');
-Route::resource('q', 'QuestsController');
+
+
+// Route::resource('q', 'QuestsController');
+Route::get('q','QuestsController@index');
+//
+Route::get('q/new', 'QuestsController@input');
+Route::post('q/new', 'QuestsController@save');
