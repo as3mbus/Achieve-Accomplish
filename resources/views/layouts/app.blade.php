@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Achieve & Accomplish</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -24,7 +24,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-default navbar-fixed-top" id="naver">
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="naver">
             <div class="container">
                 <div class="navbar-header">
 
@@ -35,16 +35,34 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                    <a class="navbar-brand fg-gold" href="{{ url('/') }}">
+                        Achieve & Accomplish
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">News
+                          <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="/announcement">Announcement</a></li>
+                            <li><a href="/event">Event</a></li>
+                            <li><a href="/log">Update</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Support
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="/faq">F. A. Q.</a></li>
+                              <li><a href="/contact">Contact Us</a></li>
+                              <li><a href="/tamu">Feedback</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/about">About</a></li>
                         &nbsp;
                     </ul>
 
@@ -52,6 +70,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @if (Auth::guest())
+
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('login') }}">Contact</a></li>
                             <!-- <li><a href="{{ route('register') }}">Register</a></li> -->

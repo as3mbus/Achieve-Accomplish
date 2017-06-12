@@ -24,6 +24,6 @@ class bukutamuController extends Controller
 
       $input->save();
 
-      return view('home2');
+      return redirect('/bukutamu');
   }
 }

@@ -37,13 +37,11 @@ class QuestsController extends Controller
 
       return redirect('q');
   }
-  public function edit($id)
-  {
-      $quest = Pesertas::find($id);
-      $tasks = Kelas::lists('nama_kelas', 'id');
-      return view('q.edit')->withPeserta($peserta)
-                                    ->withKelas($kelas);
+  public function show($id){
+    $quest=quest::find($id);
+    $tasks=quest::find($id)->tasks;
+    return view('q.show')->with('quest',$quest)
+                          ->with('tasks',$tasks);
   }
-
     //
 }

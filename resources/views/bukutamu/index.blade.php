@@ -11,7 +11,7 @@
 @if(count($messages) > 0)
 
 
-<table id="example" class="table table-striped center " style="width: 70vw;margin: 0 auto;" cellspacing="0">
+<table id="example" class="table table-striped center bg-gold " style="width: 70vw;margin: 0 auto;" cellspacing="0">
 	<thead>
 		<td>No. </td>
 		<td>Email </td>

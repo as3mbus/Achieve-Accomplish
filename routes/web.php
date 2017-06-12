@@ -24,12 +24,28 @@ Route::get('/dev', function () {
     return view('home2');
 });
 Route::get('/announcement', function () {
-    // $quest = DB::table('quest')->get();
-    // return $quest;
-    // return view('home2',
-    // ['quest'=> $quest,
-    //  'name'=> 'stranger']);
     return view('announcement');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/maintenance', function () {
+    return view('maintenance');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/doc', function () {
+    return view('documentation');
+});
+Route::get('/event', function () {
+    return view('event');
+});
+Route::get('/faq', function () {
+    return view('faq');
+});
+Route::get('/log', function () {
+    return view('log');
 });
 
 Route::get('/quest', function () {
@@ -63,6 +79,7 @@ Route::post('tamu', 'bukutamuController@save');
 
 // Route::resource('q', 'QuestsController');
 Route::get('q','QuestsController@index');
+Route::get('q/{id}','QuestsController@show');
 //
 Route::get('q/new', 'QuestsController@input');
 Route::post('q/new', 'QuestsController@save');
